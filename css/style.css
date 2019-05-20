@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box; }
+  
+  html {
+    height: 100%; }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-image: url('https://res.cloudinary.com/dqvnjf1qb/image/upload/v1553213904/35414-O02PPW.jpg');
+    background-size: cover;
+    background-position: center; 
+  }
+  
+  svg {
+    height: 100%; }
+  
+  .mercury-orbit, .venus-orbit, .mars-orbit, .jupiter-orbit, .saturn-orbit, .uranus-orbit, .neptune-orbit {
+    fill: none;
+    stroke: #E6E6E6;
+    stroke-width: 4;
+    stroke-width: 1; }
+  
+  .moon-orbit {
+    fill: none;
+    stroke: #E6E6E6;
+    stroke-width: 1; }
+  
+  .shadow {
+    fill: url(#shadow); }
+  
+  .earth-orbit {
+    fill: url(#sunshine);
+    stroke: #E6E6E6;
+    stroke-width: 2; }
+  
+  .sun {
+    fill: url(#sun);
+    transform: rotate(10deg);
+    transform-origin: center; }
+  
+  .moon-shadow {
+    fill: url(#shadow);
+    transform-origin: center;
+    animation: rotation 3s linear infinite; }
+  
+  .neptune-group {
+    transform-origin: center;
+    animation: neptune-group 100s linear infinite; }
+  
+  .venus-group {
+    transform-origin: center;
+    animation: venus-group 8s linear infinite; }
+  
+  .uranus-group {
+    transform-origin: center;
+    animation: uranus-group 70s linear infinite; }
+  
+  .saturn-group {
+    transform-origin: center;
+    animation: saturn-group 60s linear infinite; }
+  
+  .jupiter-group {
+    transform-origin: center;
+    animation: jupiter-group 30s linear infinite; }
+  
+  .mars-group {
+    transform-origin: center;
+    animation: mars-group 20s linear infinite; }
+  
+  .earth-group {
+    transform-origin: center;
+    animation: earth-group 12s linear infinite; }
+  
+  .mercury-group {
+    transform-origin: center;
+    animation: mercury-group 5s linear infinite; }
+  
+  .moon-group {
+    transform-origin: center;
+    animation: moon-group 3s linear infinite; }
+  
+  .moon {
+    fill: #E6E6E6;
+    transform-origin: center;
+    animation: rotation-moon 3s linear infinite; }
+  
+  .moon-shadow {
+    fill: url(#shadow);
+    transform-origin: center;
+    animation: rotation 3s linear infinite; }
+  
+  @keyframes neptune-group {
+    0% {
+      transform: rotate(0deg) translate(12000px); }
+    100% {
+      transform: rotate(-360deg) translate(12000px); } }
+  
+  @keyframes mercury-group {
+    0% {
+      transform: rotate(0deg) translate(1000px); }
+    100% {
+      transform: rotate(-360deg) translate(1000px); } }
+  
+  @keyframes venus-group {
+    0% {
+      transform: rotate(0deg) translate(2000px); }
+    100% {
+      transform: rotate(-360deg) translate(2000px); } }
+  
+  @keyframes earth-group {
+    0% {
+      transform: rotate(0deg) translate(3100px); }
+    100% {
+      transform: rotate(-360deg) translate(3100px); } }
+  
+  @keyframes mars-group {
+    0% {
+      transform: rotate(0deg) translate(4100px); }
+    100% {
+      transform: rotate(-360deg) translate(4100px); } }
+  
+  @keyframes jupiter-group {
+    0% {
+      transform: rotate(0deg) translate(5500px); }
+    100% {
+      transform: rotate(-360deg) translate(5500px); } }
+  
+  @keyframes saturn-group {
+    0% {
+      transform: rotate(0deg) translate(8000px); }
+    100% {
+      transform: rotate(-360deg) translate(8000px); } }
+  
+  @keyframes uranus-group {
+    0% {
+      transform: rotate(0deg) translate(10500px); }
+    100% {
+      transform: rotate(-360deg) translate(10500px); } }
+  
+  @keyframes neptune-group {
+    0% {
+      transform: rotate(0deg) translate(12000px); }
+    100% {
+      transform: rotate(-360deg) translate(12000px); } }
+  
+  @keyframes moon-group {
+    0% {
+      transform: rotate(0deg) translate(500px); }
+    100% {
+      transform: rotate(-360deg) translate(500px); } }
+  
+  .neptune {
+    fill: url(#neptune);
+    transform-origin: center;
+    animation: rotation 100s linear infinite; }
+  
+  .venus {
+    fill: url(#venus);
+    transform-origin: center;
+    animation: rotation 8s linear infinite; }
+  
+  .uranus {
+    fill: url(#uranus);
+    transform-origin: center;
+    animation: rotation 70s linear infinite; }
+  
+  .saturn {
+    fill: url(#saturn);
+    transform-origin: center;
+    animation: rotation 60s linear infinite; }
+  
+  .jupiter {
+    fill: url(#jupiter);
+    transform-origin: center;
+    animation: rotation 30s linear infinite; }
+  
+  .mars {
+    fill: url(#mars);
+    transform-origin: center;
+    animation: rotation 20s linear infinite; }
+  
+  .earth {
+    fill: url(#earth);
+    transform-origin: center;
+    animation: rotation 12s linear infinite; }
+  
+  .mercury {
+    fill: url(#mercury);
+    transform-origin: center;
+    animation: rotation 5s linear infinite; }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(-360deg); } }
+  
